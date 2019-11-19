@@ -1,0 +1,38 @@
+#navbar{
+    font-family: 'Prata';  
+    font-size: 26px;
+    overflow: hidden;
+    background-color: #85bbd4;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    left:0;
+    width: 100%;
+    display: block;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 2px;
+}
+
+#navbar a{
+    display: inline-block; 
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+ }
+
+#navbar a:hover{
+    background-color: #007ba0;
+}
+
+#navbar a:active{
+    background-color: #025272;
+}
+
+.gallery{
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}

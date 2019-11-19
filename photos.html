@@ -1,0 +1,54 @@
+<html>
+    
+    <head>
+       <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet'>
+
+        <meta charset="UTF-8">
+        
+        <title>Old Dominion | Photos</title>
+        
+        <link href="css/photos_stylesheet.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    
+    <body>
+        
+        <div id="navbar">
+    <a href="index.html">Home</a>
+    <a href="bio.html">Bio</a>
+    <a href="albums.html">Albums</a>
+    <a href="tour.html">Tour</a>
+    <a href="photos.html">Photos</a>
+        </div>
+        
+        <h2 class="w3-center">Automatic Slideshow</h2>
+
+<div class="gallery">
+  <img class="mySlides" src="images/photo1.jpg" style="width:100%">
+  <img class="mySlides" src="images/photo4.jpg" style="width:100%">
+  <img class="mySlides" src="images/photo2.jpg" style="width:100%">
+  <img class="mySlides" src="images/photo3.jpg" style="width:100%">
+  <img class="mySlides" src="images/photo5.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+    </body>
+    
+</html>

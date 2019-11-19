@@ -1,0 +1,78 @@
+#navbar{
+    font-family: 'Prata';  
+    font-size: 26px;
+    overflow: hidden;
+    background-color: #85bbd4;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    left:0;
+    width: 100%;
+    display: block;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 2px;
+}
+
+#navbar a{
+    display: inline-block; 
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+ }
+
+#navbar a:hover{
+    background-color: #007ba0;
+}
+
+#navbar a:active{
+    background-color: #025272;
+}
+
+.container{
+    margin-left: 180px;
+    margin-right: 180px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2em;
+    margin-top: 125px;
+    margin-bottom: 80px;
+}
+
+body{
+    font-family: 'Helvetica';
+}
+
+h2{
+    font-family: 'Prata';
+    color: #85bbd4;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.album2{
+    margin-top: 75px;
+}
+
+.songs2{
+    margin-top: 75px;
+}
+
+.album3{
+    margin-top: 75px;
+}
+
+.songs3{
+    margin-top: 75px;
+}
+
+table {
+  border-collapse: collapse;
+}
+tr { 
+  border: solid;
+  border-width: 1px 0;
+    border-color: #85bbd4;
+}
